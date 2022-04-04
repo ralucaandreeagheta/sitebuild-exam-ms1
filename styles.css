@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sectionA {
+    background-color: rgb(217, 217, 217);
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    position: relative;
+}
+
+.sectionA p{
+    position: fixed;
+}
+
+.btn1 {
+    border: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(186, 186, 186);
+    margin: auto;
+}
+
+.btn2 {
+    border: none;
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.sectionB {
+    background-color: rgb(186, 186, 186);
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionB p{
+    position: fixed;
+    left:0;
+}
+
+.btn3 {
+    border: none;
+    width: 200px;
+    height: 60px;
+    position: fixed;
+    bottom: 40px;
+    margin: auto;
+}
